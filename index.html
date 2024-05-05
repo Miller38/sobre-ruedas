@@ -1,37 +1,85 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html> <!-- Declaración del tipo de documento -->
+<html lang="es"> <!-- Apertura del elemento HTML con atributo de idioma en español -->
 
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8"> <!-- Codificación de caracteres -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
+  <!-- Configuración de la vista para dispositivos -->
+  <title>Prueba framework w3s</title> <!-- Título de la página -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> <!-- Enlace a una hoja de estilos externa -->
 </head>
 
 <body>
-  <header class="w3-container w3-padding-64 w3-red ">
-    <h1 class="w3-cursive w3-center w3-wide">SobreRuedas</h1>
+  <header class="w3-container w3-padding-64 w3-red "> <!-- Encabezado con clase de diseño y color -->
+    <h1 class="w3-cursive w3-center w3-wide ">SobreRuedas</h1> <!-- Título principal con estilo y centrado -->
   </header>
 
-  <div class="w3-bar w3-black w3-cursive">
-    <div class="w3-bar-item w3-hover-red">London</div>
-    <div class="w3-bar-item w3-hover-green ">Paris</div>
-    <div class="w3-bar-item w3-hover-blue">Tokyo</div>
+  <div class="w3-bar w3-black w3-cursive"> <!-- Barra de navegación con clase de diseño y color -->
+    <div class="w3-bar-item w3-hover-red w3-xlarge w3-serif">Home</div> <!-- Elemento de la barra con efecto hover -->
+    <div class="w3-bar-item w3-hover-green w3-xlarge w3-serif">About us</div>
+    <!-- Elemento de la barra con efecto hover -->
+    <div class="w3-bar-item w3-hover-blue w3-xlarge w3-serif">Services</div>
+    <!-- Elemento de la barra con efecto hover -->
   </div>
   <br>
 
-  <div class="w3-container w3-section w3-card-4 w3-padding-64 w3-margin w3-round-xxlarge w3-shadow ">
-    <h2>London</h2>
-    <p>London is the most populous city in the United Kingdom,
+  <div
+    class="w3-container w3-section w3-center w3-hover-light-grey w3-card-4 w3-padding-64 w3-margin w3-round-xlarge w3-shadow ">
+    <!-- Contenedor con varias clases de diseño -->
+    <h2>London</h2> <!-- Título secundario -->
+    <p class="w3-xlarge w3-serif">London is the most populous city in the United Kingdom,
+      with a metropolitan area of over 9 million inhabitants.</p> <!-- Texto descriptivo -->
+
+    <div class="w3-row-padding w3-margin-top">
+      <div class="w3-third ">
+        <div class="w3-card w3-round-xlarge">
+          <img src="img7.jpg" style="width:100%">
+          <div class="w3-container">
+            <h5>5 Terre</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="w3-third">
+        <div class="w3-card w3-round-xlarge">
+          <img src="img7.jpg" style="width:100%">
+          <div class="w3-container">
+            <h5>Monterosso</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="w3-third">
+        <div class="w3-card w3-round-xlarge">
+          <img src="img7.jpg" style="width:100%">
+          <div class="w3-container">
+            <h5>Vernazza</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <br><br><br>
+
+    <div class="w3-panel w3-yellow">
+      <h3>Warning!</h3>
+      <p>Yellow often indicates a warning that might need attention.</p>
+    </div>
+  </div>
+
+
+  <div class="w3-panel w3-border w3-margin w3-light-grey w3-round-large">
+    <p class="w3-xlarge w3-serif">London is the most populous city in the United Kingdom,
       with a metropolitan area of over 9 million inhabitants.</p>
   </div>
 
-  
-  <button class="w3-button w3-yellow w3-round-large   w3-wide w3-hover-black w3-center w3-left" >Black</button>
-  <button class="w3-button w3-hover-red">Red</button>
-  <button class="w3-button w3-hover-purple">Purple</button>
-
+  <button
+    class="w3-button w3-yellow w3-round-large w3-wide w3-hover-black w3-center w3-left w3-xlarge w3-serif">Black</button>
+  <!-- Botón con varias clases de diseño -->
+  <button class="w3-button w3-hover-red w3-xlarge w3-serif">Red</button> <!-- Botón con efecto hover -->
+  <button class="w3-button w3-hover-purple w3-xlarge w3-serif">Purple</button> <!-- Botón con efecto hover -->
 
 
 </body>
